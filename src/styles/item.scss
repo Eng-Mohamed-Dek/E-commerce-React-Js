@@ -1,0 +1,102 @@
+.item {
+    width: 280px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 1px solid #9b9b9b;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .item img {
+    width: 280px;
+  }
+  
+  .item p {
+    margin: 16px 0px;
+  }
+  
+  .item-prices {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+  }
+  
+  .item-price-new {
+    color: #00CD8E;
+    font-weight: 700;
+    text-decoration: line-through;
+    font-size: 25px;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  @media(max-width: 1280px) {
+    .item {
+      width: 220px;
+      font-size: 14px;
+    }
+  
+    .item img {
+      width: 220px;
+    }
+  
+    .item-price-old {
+      font-size: 14px;
+    }
+  
+    .item-price-new {
+      font-size: 14px;
+    }
+  
+  }
+  
+  @media (max-width: 1024px) {
+    .item {
+      width: 170px;
+      font-size: 13px;
+    }
+  
+    .item img {
+      width: 170px;
+    }
+  
+    .item-price-old {
+      font-size: 13px;
+    }
+  
+    .item-price-new {
+      font-size: 13px;
+    }  
+  }
+  
+  
+  @media (max-width: 500px) {
+    .item-price-old {
+      font-size: 12px;
+    }
+  
+    .item-price-new {
+      font-size: 12px;
+    } 
+  }
+
+
+  .item button {
+    padding: 13px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #00CD8E;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 14px;
+  }

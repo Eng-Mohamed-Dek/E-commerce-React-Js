@@ -1,0 +1,30 @@
+.footer {
+  background-color: #00CD8E;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+
+  .footer-content {
+    .footer-links {
+      margin: 10px 0;
+        a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+
+
+        &:hover {
+          color: #445657;
+        }
+      }
+    }
+  }
+}
+
+.social-media {
+  img {
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
